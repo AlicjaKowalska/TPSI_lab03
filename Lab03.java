@@ -1,7 +1,7 @@
 //ALICJA
 //KOWALSKA
 //39322
-//lAB03
+//lab_03
 package lab03;
 
 import java.io.BufferedReader;
