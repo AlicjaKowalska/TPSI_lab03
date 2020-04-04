@@ -32,8 +32,6 @@ public class Lab03 {
         //Set<String> zbiorDni = new HashSet<>(); // HashSet - elementy nie są uporządkowane
         Set<String> zbiorDni = new TreeSet<>(); //TreeSet - elementy są uporządkowane (tutaj alfabetycznie)
         //nie były wymagane jakiekolwiek zmiany w kodzie poza miejscem tworzenia obiektu (new HashSet<>() / new TreeSet<>()) 
-        //w tej sytuacji należy użyć klasy w zależności od tego co chcemy osiągnąć, czy chcemy uporządkowane dane (TreeSet)
-        //czy nieuporządkowane (HashSet) tutaj będzie to obojętne, ponieważ dni tygodnia ułożone alfabetycznie i tak nie będą poprawnie uporządkowane
         zbiorDni.add("poniedziałek");
         zbiorDni.add("wtorek");
         zbiorDni.add("środa");
